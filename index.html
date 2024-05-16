@@ -375,13 +375,14 @@
 
     <!-- Modal Cart-->
 
-    <div class="bg-black/55 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden">
+    <div class="bg-black/55 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+    id="cart-modal">
 
         <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
 
             <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
 
-                <div id="cart-items" class="flex justify-between mb-2 flex-col">
+                <div id="cart-items" class="flex justify-between mb-2 flex-col"> </div>
 
                     <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
 
@@ -411,8 +412,7 @@
     <!-- Button card footer -->
 
     <footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
-        <button class="flex items-center gap-2 text-white font-bold"
-        id="cart-btn"
+        <button class="flex items-center gap-2 text-white font-bold" id="cart-btn"
         >
             (<span id="cart-count">0</span>)
             Veja meu carrinho
@@ -422,6 +422,8 @@
 
     <!-- Fim Button card footer -->
 
+
+    <script src="script.js"></script>
 
 </body>
 </html>
