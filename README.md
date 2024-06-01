@@ -52,4 +52,4 @@ Antes de começar, você precisará ter o seguinte instalado na sua máquina:
 ### Clonando o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/hamburgueria-site.git
+git clone https://github.com/H3ITHOR/burguer_place_project.git
