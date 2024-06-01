@@ -53,5 +53,3 @@ Antes de começar, você precisará ter o seguinte instalado na sua máquina:
 
 ```bash
 git clone https://github.com/seu-usuario/hamburgueria-site.git
-cd hamburgueria-site
-
